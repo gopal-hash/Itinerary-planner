@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e3d59; /* Dark blue for a bold, contrasting background */
+    color: #ffffff; /* White text for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px; /* Wider layout for a more expansive design */
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #0a2f43; /* Deep blue-gray for a sleek, modern card look */
+    border-radius: 16px; /* More prominent rounded corners */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); /* Stronger shadow for depth */
+}
+
+h1 {
+    text-align: center;
+    color: #fdd365; /* Vibrant yellow to capture attention */
+    font-family: 'Montserrat', sans-serif; /* Modern font for a travel theme */
+    font-size: 3em; /* Larger font for a more dramatic impact */
+    letter-spacing: 2px; /* Spaced letters for a more premium look */
+    text-transform: uppercase;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    width: 100%; /* Full width input for modern design */
+    padding: 16px;
+    margin-bottom: 20px;
+    border: 2px solid #fdd365; /* Bold yellow border to stand out */
+    border-radius: 8px;
+    background-color: #0e4b64; /* Darker blue for input background */
+    color: #ffffff; /* White text */
+    font-size: 1.1em;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease; /* Smooth border transition */
+}
+
+input[type="text"]:focus {
+    border-color: #f95738; /* Orange border on focus for vibrancy */
+    outline: none;
+}
+
+button {
+    padding: 14px 30px;
+    background-color: #f95738; /* Bright orange for a bold button */
+    color: #ffffff;
+    border: none;
+    border-radius: 50px; /* Full-rounded buttons for a sleek look */
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover effects */
+}
+
+button:hover {
+    background-color: #d9461c; /* Darker orange on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.results {
+    background-color: #fdd365; /* Yellow background to highlight results */
+    color: #0a2f43; /* Dark text for contrast */
+    padding: 30px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+    font-size: 1.1em;
+}
+
+.results pre {
+    background-color: #0e4b64; /* Dark blue background for code blocks */
+    color: #fdd365; /* Yellow text for high contrast */
+    padding: 20px;
+    border-radius: 12px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    font-family: 'Courier New', monospace; /* Monospace font for a code-like appearance */
+    max-width: 100%;
+}
+
+.results h2 {
+    font-size: 2em;
+    color: #f95738; /* Orange for headers */
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.results p {
+    margin-bottom: 18px;
+    line-height: 1.6; /* Increased line height for better readability */
+}
